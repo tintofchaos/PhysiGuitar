@@ -1,2 +1,2 @@
 # PhysiGuitar
-a guitar simulator VST
+A guitar simulator plugin
