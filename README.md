@@ -3,3 +3,11 @@ A guitar simulator plugin but unlike most plugins this plugin uses physical mode
 
 License:
 Creative Commons Zero
+
+Parameters:
+
+Stiffness: 
+
+sets inharmonicity
+
+
