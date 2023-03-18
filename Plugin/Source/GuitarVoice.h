@@ -86,9 +86,9 @@ public:
                     
             ++startSample;
                     
-            if (0 < gain && release) gain -= 1.f / (getSampleRate() / 50.f);
+            if (0 < gain && release) gain -= 1.f / (getSampleRate() / 40.f);
                     
-            if (1 > gain && !release) gain += 1.f / (getSampleRate() / 50.f);
+            if (1 > gain && !release) gain += 1.f / (getSampleRate() / 40.f);
 
                     
             if (gain <= 0.005 && release)
