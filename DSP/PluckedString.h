@@ -171,14 +171,14 @@ float string_process(PluckedString *string) {
             
         decay_time = string->damping + string->muting * freq * M_PI * 2.f;
 
-        sum += sine_process(&string->modes[i]) * string->amplitudes[i] * expf(-string->t * decay_time) / (float) MAX_MODES_AMOUNT;
+        sum += sine_process(&string->modes[i]) * string->amplitudes[i] * expf(-string->t * decay_time) / 12.f;
 
         if (detune_freq >= (float) string->sample_rate / 2.f || detune_freq >= 20000)
             break;
 
         coupled_decay_time = string->damping + string->muting * freq * M_PI * 2.f;
 
-        sum += sine_process(&string->coupling_modes[i]) * string->amplitudes[i] * expf(-string->t * coupled_decay_time) / (float) MAX_MODES_AMOUNT;
+        sum += sine_process(&string->coupling_modes[i]) * string->amplitudes[i] * expf(-string->t * coupled_decay_time) / 12.f;
     }
     
     string->t += 1.f / (float) string->sample_rate;
