@@ -176,9 +176,7 @@ void PhysiGuitarAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, 
             
         if (*harmonics != prev_harmonics)
             string_setharmonics(strings[i], *harmonics);
-            
-        string_update(strings[i]);
-            
+               
         int mat = -1;
         
         if ((*material).getCurrentChoiceName() == "Nylon")
@@ -188,6 +186,8 @@ void PhysiGuitarAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, 
         
         if (mat != prev_material)
             string_setmaterial(strings[i], mat);
+      
+        string_update(strings[i]);
         
         if (*pickup_position != prev_pickuppos)
             pickup_setposition(pickups[i], *pickup_position);
