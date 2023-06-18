@@ -6,16 +6,16 @@ Creative Commons Zero
 
 Parameters:
 
-Stiffness: 
-Sets inharmonicity
+Material: 
+Steel or Nylon, nylon is less inharmonic then steel
 
 Pluck Position:
 Sets pluck position relative to the length of the string the lower the number the closer to the bridge the pluck
 
-Damping:
+Decay:
 Sets frequency independent damping amount, useful for staccato
 
-Muting:
+Damping:
 Sets frequency dependent damping amount, useful for palm muting
 
 Pickup Position:
@@ -26,3 +26,6 @@ Modifies the tone of the pickup
 
 Bass:
 Uses a bass pickup instead of a regular one
+
+Natural Harmonics:
+filters all odd harmonics giving a natural harmonics sound
