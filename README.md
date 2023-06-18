@@ -28,4 +28,4 @@ Bass:
 Uses a bass pickup instead of a regular one
 
 Natural Harmonics:
-filters all odd harmonics giving a natural harmonics sound
+Filters all odd harmonics giving a natural harmonics sound
