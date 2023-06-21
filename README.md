@@ -7,7 +7,7 @@ Creative Commons Zero
 Parameters:
 
 Material: 
-Steel or Nylon, nylon is less inharmonic then steel
+Sets inharmonicity amount
 
 Pluck Position:
 Sets pluck position relative to the length of the string the lower the number the closer to the bridge the pluck
