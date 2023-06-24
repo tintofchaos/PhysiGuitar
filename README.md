@@ -29,3 +29,6 @@ Uses a bass pickup instead of a regular one
 
 Natural Harmonics:
 Filters all odd harmonics giving a natural harmonics sound
+
+High Quality Mode:
+Double the amount of modes and double the CPU usage
